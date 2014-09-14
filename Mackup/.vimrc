@@ -1,6 +1,5 @@
 set nu
-set backspace=2
-set tabstop=4
+set tabstop=2
 set expandtab
 syntax on
 set ruler
