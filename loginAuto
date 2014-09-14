@@ -7,7 +7,7 @@ git add --all
 git commit -a -m "normal sync"
 git push origin master
 
-
+print ''
 echo -e '\033[31m'
 echo 'BACKING UP GIT-REPOSITORY...'
 echo -e '\033[0m'
@@ -16,7 +16,7 @@ git add --all
 git commit -a -m 'normal sync'
 git push origin master
 
-
+print ''
 echo -e '\033[31mCHECK BREW OUTDATED...\033[0m'
 brew outdated
 
