@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+function echoRed()
+{
+    echo '\033[31m'$1'\033[0m'
+}
+

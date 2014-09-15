@@ -79,4 +79,4 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias clr=clear
-alias note='vi ~/git-repository/Note/'
+alias clrl='clear && l'

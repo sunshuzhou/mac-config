@@ -1,6 +1,8 @@
 #!/bin/zsh
 
-echo -e '\033[31mBACKING UP CONFIGURATION...\033[0m'
+source ./shell/echoRed
+
+echoRed 'BACKING UP CONFIGURATION...'
 mackup backup
 cd ~/git-repository/myBackup
 git add --all
