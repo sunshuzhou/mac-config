@@ -4,18 +4,11 @@ source ~/git-repository/myBackup/shell/echoRed
 
 echoRed 'BACKING UP CONFIGURATION...'
 
-mackup backup
-cd ~/git-repository/myBackup
-git add --all
-git commit -a -m "normal sync"
-git push origin master
+source ~/git-repository/myBackup/shell/myBackup-git-backup
 
 print ''
-echoRed 'BACKING UP GIT-REPOSITORY...'
-cd ~/git-repository/Note
-git add --all
-git commit -a -m 'normal sync'
-git push origin master
+echoRed 'BACKING UP Note...'
+source ~/git-repository/myBackup/shell/note-git-backup
 
 print ''
 echoRed 'CHECK BREW OUTDATED...'
