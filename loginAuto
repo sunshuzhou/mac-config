@@ -1,8 +1,9 @@
 #!/bin/zsh
 
-source ./shell/echoRed
+source ~/git-repository/myBackup/shell/echoRed
 
 echoRed 'BACKING UP CONFIGURATION...'
+
 mackup backup
 cd ~/git-repository/myBackup
 git add --all
@@ -10,18 +11,16 @@ git commit -a -m "normal sync"
 git push origin master
 
 print ''
-echo -e '\033[31m'
-echo 'BACKING UP GIT-REPOSITORY...'
-echo -e '\033[0m'
+echoRed 'BACKING UP GIT-REPOSITORY...'
 cd ~/git-repository/Note
 git add --all
 git commit -a -m 'normal sync'
 git push origin master
 
 print ''
-echo -e '\033[31mCHECK BREW OUTDATED...\033[0m'
+echoRed 'CHECK BREW OUTDATED...'
 brew outdated
 
 print ''
-echo -e '\033[31m--------------\033[0m'
-echo -e '\033[31mFinished.\033[0m'
+echoRed '--------------'
+echoRed 'Finished.'
