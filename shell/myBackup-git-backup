@@ -4,6 +4,7 @@ mackup backup
 
 cd ~/git-repository/myBackup
 
+git pull origin master
 git add --all
 git commit -m "normal sync"
 git push origin master

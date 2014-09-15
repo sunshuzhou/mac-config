@@ -2,6 +2,7 @@
 
 cd ~/git-repository/Note/
 
+git pull origin master
 git add --all
 git commit -m "normal sync"
 git push origin master
