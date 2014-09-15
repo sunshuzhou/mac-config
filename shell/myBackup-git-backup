@@ -6,5 +6,5 @@ cd ~/git-repository/myBackup
 
 git add --all
 git commit -m "normal sync"
-git push oirgin master
+git push origin master
 
