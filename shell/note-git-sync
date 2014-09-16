@@ -6,6 +6,7 @@ cd ~/git-repository/Note/buyitem/
 
 cd ~/git-repository/Note/
 
+git status
 git pull origin master
 git add --all
 git commit -m "normal sync"
