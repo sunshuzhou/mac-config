@@ -80,3 +80,5 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias clr=clear
 alias clrl='clear && l'
+alias vim='/usr/local/bin/vim'
+alias vi='/usr/local/bin/vim'

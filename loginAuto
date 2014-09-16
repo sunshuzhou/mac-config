@@ -3,7 +3,6 @@
 source ~/git-repository/myBackup/shell/echoRed
 
 echoRed 'BACKING UP myBackup...'
-
 source ~/git-repository/myBackup/shell/myBackup-git-backup
 
 print ''
