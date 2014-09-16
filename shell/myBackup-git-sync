@@ -2,6 +2,7 @@
 
 mackup backup
 
+cd ~/git-repository/myBackup/shell/
 source ./brew-list-backup
 
 brew list > ../Other/brew-list.backup
