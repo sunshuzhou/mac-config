@@ -2,6 +2,10 @@
 
 mackup backup
 
+source ./brew-list-backup
+
+brew list > ../Other/brew-list.backup
+
 cd ~/git-repository/myBackup
 
 git pull origin master

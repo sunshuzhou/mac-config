@@ -3,11 +3,11 @@
 source ~/git-repository/myBackup/shell/echoRed
 
 echoRed 'BACKING UP myBackup...'
-source ~/git-repository/myBackup/shell/myBackup-git-backup
+source ~/git-repository/myBackup/shell/myBackup-git-sync
 
 print ''
 echoRed 'BACKING UP Note...'
-source ~/git-repository/myBackup/shell/note-git-backup
+source ~/git-repository/myBackup/shell/note-git-sync
 
 print ''
 echoRed 'CHECK BREW OUTDATED...'
