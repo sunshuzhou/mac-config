@@ -10,3 +10,7 @@ set autoindent
 set hlsearch
 
 filetype plugin on
+filetype on
+
+
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
