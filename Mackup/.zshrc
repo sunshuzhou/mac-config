@@ -85,3 +85,5 @@ alias vim='/usr/local/bin/vim'
 alias vi='/usr/local/bin/vim'
 alias ctags='/usr/local/bin/ctags'
 
+
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh

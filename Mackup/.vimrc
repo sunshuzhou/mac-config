@@ -13,4 +13,6 @@ filetype plugin on
 filetype on
 
 
-autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+" autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+" let Tlist_Auto_Open = 1
