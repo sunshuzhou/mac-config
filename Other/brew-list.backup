@@ -3,5 +3,6 @@ ctags
 doxygen
 mackup
 openssl
+sysdig
 vim
 wget

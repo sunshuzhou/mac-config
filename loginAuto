@@ -11,7 +11,7 @@ source ~/git-repository/myBackup/shell/note-git-sync
 
 print ''
 echoRed 'CHECK BREW OUTDATED...'
-brew outdated
+brew update && brew upgrade
 
 print ''
 echoRed '--------------'
