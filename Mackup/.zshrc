@@ -84,7 +84,8 @@ alias clrl='clear && l'
 alias vim='/usr/local/bin/vim'
 alias vi='/usr/local/bin/vim'
 alias ctags='/usr/local/bin/ctags'
-alias tcpdump='/usr/local/sbin/tcpdump.4.6.2'
+# alias tcpdump='/usr/local/sbin/tcpdump.4.6.2'
+alias ip='curl ifconfig.me'
 
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
