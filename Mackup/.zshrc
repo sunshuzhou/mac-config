@@ -46,7 +46,7 @@ ZSH_THEME="dpoggi"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git, osx)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,7 +84,7 @@ alias clrl='clear && l'
 alias vim='/usr/local/bin/vim'
 alias vi='/usr/local/bin/vim'
 alias ctags='/usr/local/bin/ctags'
-# alias tcpdump='/usr/local/sbin/tcpdump.4.6.2'
+alias tcpdump='/usr/local/sbin/tcpdump.4.6.2'
 alias ip='curl ifconfig.me'
 
 
