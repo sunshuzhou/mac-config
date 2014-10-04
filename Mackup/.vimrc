@@ -96,10 +96,12 @@ set encoding=utf-8
 " let Tlist_Auto_Open = 1
 let Tlist_Exit_OnlyWindow = 1
 
+" window manager
 let g:winManagerWindowLayout='FileExplorer|TagList'
 let g:persistentBehaviour = 0
 nmap wm :WMToggle<cr>
 
 nmap q :q<cr>
 nmap wq :wq<cr>
-nmap w :w<cr>
+
+set noignorecase
