@@ -53,6 +53,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+export PATH="/usr/local/bin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -81,11 +82,11 @@ export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias clr=clear
 alias clrl='clear && l'
-alias vim='/usr/local/bin/vim'
-alias vi='/usr/local/bin/vim'
-alias ctags='/usr/local/bin/ctags'
-alias tcpdump='/usr/local/sbin/tcpdump.4.6.2'
-alias ip='curl ifconfig.me'
+# alias vim='/usr/local/bin/vim'
+# alias vi='/usr/local/bin/vim'
+# alias ctags='/usr/local/bin/ctags'
+# alias tcpdump='/usr/local/sbin/tcpdump.4.6.2'
+# alias ip='curl ifconfig.me'
 
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
