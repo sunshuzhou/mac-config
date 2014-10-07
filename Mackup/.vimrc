@@ -88,6 +88,7 @@ set expandtab
 
 
 set encoding=utf-8
+set fileencodings=utf8
 
 
 " autocmd BufNewFile,BufReadPost *.md set filetype=markdown
