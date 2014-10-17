@@ -14,7 +14,7 @@ else
   set undofile		" keep an undo file (undo changes after closing)
 endif
 
-set history=50		" keep 50 lines of command line history
+set history=1000		" keep 1000 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
@@ -99,9 +99,16 @@ let Tlist_Exit_OnlyWindow = 1
 " window manager
 let g:winManagerWindowLayout='FileExplorer|TagList'
 let g:persistentBehaviour = 0
-nmap wm :WMToggle<cr>
 
-nmap q :q<cr>
-nmap wq :wq<cr>
 
 set noignorecase
+
+execute pathogen#infect()
+"runtime bundle/vim-pathogen/autoload/pathogen.vim
+
+set wildmenu
+set wildmode=longest,list
+
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
+map tt o<esc>
