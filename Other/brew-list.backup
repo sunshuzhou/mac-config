@@ -3,13 +3,10 @@ cloog
 cmake
 ctags
 doxygen
-gcc
-gdb
 gmp
 isl
 libmpc
 mackup
-make
 makedepend
 mpfr
 openssl

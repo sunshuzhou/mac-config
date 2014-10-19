@@ -93,4 +93,4 @@ alias ip='curl ifconfig.me'
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
 alias o=open
-alias gcc=gcc-4.9
+#alias gcc=gcc-4.9
