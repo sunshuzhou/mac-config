@@ -3,9 +3,15 @@ cloog
 cmake
 ctags
 doxygen
+freetype
+gettext
 gmp
+icu4c
 isl
+jpeg
 libmpc
+libpng
+libtool
 mackup
 makedepend
 mpfr
@@ -13,7 +19,9 @@ openssl
 pkg-config
 readline
 sysdig
+unixodbc
 unrar
 vim
 wget
 xz
+zlib
