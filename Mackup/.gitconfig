@@ -1,3 +1,7 @@
 [user]
 	name = 孙书洲
 	email = szhou.sun@hotmail.com
+[filter "media"]
+	clean = git media clean %f
+	smudge = git media smudge %f
+	required = true
