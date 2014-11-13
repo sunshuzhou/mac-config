@@ -93,7 +93,7 @@ set fileencodings=utf8
 
 " autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
-" let Tlist_Auto_Open = 1
+let Tlist_Auto_Open = 1
 let Tlist_Exit_OnlyWindow = 1
 
 " window manager
@@ -101,9 +101,9 @@ let g:winManagerWindowLayout='FileExplorer|TagList'
 let g:persistentBehaviour = 0
 
 
-set noignorecase
+set ignorecase
 
-execute pathogen#infect()
+"execute pathogen#infect()
 "runtime bundle/vim-pathogen/autoload/pathogen.vim
 
 set wildmenu
