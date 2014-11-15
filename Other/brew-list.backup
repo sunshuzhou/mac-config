@@ -1,6 +1,7 @@
 autojump
 cloog
 cmake
+composer
 ctags
 doxygen
 freetype
@@ -16,6 +17,7 @@ mackup
 makedepend
 mpfr
 openssl
+php55
 pkg-config
 readline
 sysdig

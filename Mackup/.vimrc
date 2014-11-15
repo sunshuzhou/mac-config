@@ -93,8 +93,9 @@ set fileencodings=utf8
 
 " autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
-let Tlist_Auto_Open = 1
-let Tlist_Exit_OnlyWindow = 1
+"let Tlist_Auto_Open = 1
+let Tlist_Use_Right_Window=1
+let Tlist_File_Fold_Auto_Close=1
 
 " window manager
 let g:winManagerWindowLayout='FileExplorer|TagList'
