@@ -86,6 +86,7 @@ alias clr=clear
 alias clrl='clear && l'
 alias vi='vim'
 alias ip='curl ifconfig.me'
+alias bubu='brew update && brew upgrade && brew cleanup'
 
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
