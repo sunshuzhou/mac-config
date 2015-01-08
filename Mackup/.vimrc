@@ -104,12 +104,11 @@ let g:persistentBehaviour = 0
 
 set ignorecase
 
-"execute pathogen#infect()
-"runtime bundle/vim-pathogen/autoload/pathogen.vim
+execute pathogen#infect()
 
 set wildmenu
 set wildmode=longest,list
 
-cnoremap <C-p> <Up>
-cnoremap <C-n> <Down>
 map tt o<esc>
+
+
