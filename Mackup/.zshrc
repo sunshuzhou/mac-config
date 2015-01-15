@@ -15,7 +15,7 @@ ZSH_THEME="dpoggi"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -46,7 +46,7 @@ ZSH_THEME="dpoggi"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(osx, brew, git)
+plugins=(python osx brew git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,7 +86,7 @@ alias clr=clear
 alias clrl='clear && l'
 alias vi='vim'
 alias ip='curl ifconfig.me'
-alias bubu='brew update && brew upgrade && brew cleanup'
+# alias bubu='brew update && brew upgrade && brew cleanup'
 
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh

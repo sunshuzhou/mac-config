@@ -81,11 +81,8 @@ if !exists(":DiffOrig")
 endif
 
 set nu
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set ts=4
 set expandtab
-
 
 set encoding=utf-8
 set fileencodings=utf8
@@ -111,4 +108,7 @@ set wildmode=longest,list
 
 map tt o<esc>
 
-
+syntax enable
+set background=light
+let g:solarized_termcolors=256
+colorscheme solarized
