@@ -68,7 +68,7 @@ if has("autocmd")
 
 else
 
-  set autoindent		" always set autoindenting on
+  set ci		" always set autoindenting on
 
 endif " has("autocmd")
 
@@ -82,6 +82,7 @@ endif
 
 set nu
 set ts=4
+set sw=4
 set expandtab
 
 set encoding=utf-8
